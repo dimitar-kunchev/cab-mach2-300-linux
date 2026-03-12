@@ -10,7 +10,7 @@ import tempfile
 from dataclasses import dataclass
 from pathlib import Path
 
-DEFAULT_DPI = 280
+DEFAULT_DPI = 300
 DEFAULT_THRESHOLD = 186
 _CANCELLED = False
 

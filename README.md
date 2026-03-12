@@ -17,7 +17,9 @@ Official CAB Linux driver downloads:
 3. The image is thresholded to 1-bit black/white.
 4. The packed bitmap is emitted as ZPL `^GFA`.
 
-Default raster DPI is **280**.
+Default raster DPI is **300**.
+
+For the supplied MACH2/300 setup, DPI is treated as fixed at **300**.
 
 ## Requirements
 
@@ -101,7 +103,6 @@ Why a dedicated PPD may be better:
 
 The filter accepts these CUPS options:
 
-- `pdftozpl-dpi=280`
 - `pdftozpl-threshold=186`
 - `pdftozpl-origin-x=0`
 - `pdftozpl-origin-y=0`
@@ -110,7 +111,7 @@ Equivalent aliases with `zpl-...` also work.
 
 ## Manual test example
 
-- `PYTHONPATH=src python3 packaging/cups/filter/pdftozpl-filter 1 user "Test Job" 1 "pdftozpl-dpi=280" sample.pdf > out.zpl`
+- `PYTHONPATH=src python3 packaging/cups/filter/pdftozpl-filter 1 user "Test Job" 1 "" sample.pdf > out.zpl`
 
 ## Recommendation
 
