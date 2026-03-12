@@ -1,0 +1,84 @@
+*PPD-Adobe: "4.3"
+*% Minimal PPD for cab MACH2/300 using pdftozpl-filter.
+*FormatVersion: "4.3"
+*FileVersion: "1.0"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName: "CABMA230.PPD"
+*Manufacturer: "cab"
+*Product: "(cab MACH2/300)"
+*Product: "(MACH2/300)"
+*ModelName: "cab MACH2/300"
+*ShortNickName: "cab MACH2/300"
+*NickName: "cab MACH2/300 PDF to ZPL"
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*ColorDevice: False
+*DefaultColorSpace: Gray
+*FileSystem: False
+*Throughput: "10"
+*LandscapeOrientation: Plus90
+*TTRasterizer: Type42
+*cupsVersion: 2.1
+*cupsManualCopies: False
+*cupsFilter: "application/pdf 50 pdftozpl-filter"
+*cupsFilter2: "application/pdf application/vnd.cups-raw 50 pdftozpl-filter"
+*cupsLanguages: "en"
+
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: 100x150mm.Fullbleed
+*PageSize 20x40mmRotated.Fullbleed/40 x 20mm: "<</PageSize[113 57]/ImagingBBox null>>setpagedevice"
+*PageSize 35x54mmRotated.Fullbleed/54 x 35mm: "<</PageSize[153 99]/ImagingBBox null>>setpagedevice"
+*PageSize 35x75mmRotated.Fullbleed/75 x 35mm: "<</PageSize[213 99]/ImagingBBox null>>setpagedevice"
+*PageSize 42x100mmRotated.Fullbleed/100 x 42mm: "<</PageSize[283 119]/ImagingBBox null>>setpagedevice"
+*PageSize 100x150mm.Fullbleed/100 x 150mm: "<</PageSize[283 425]/ImagingBBox null>>setpagedevice"
+*PageSize 68x110mmRotated.Fullbleed/110 x 68mm: "<</PageSize[312 193]/ImagingBBox null>>setpagedevice"
+*PageSize 99x115mmRotated.Fullbleed/115 x 99mm: "<</PageSize[326 281]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: 100x150mm.Fullbleed
+*PageRegion 20x40mmRotated.Fullbleed/40 x 20mm: "<</PageSize[113 57]/ImagingBBox null>>setpagedevice"
+*PageRegion 35x54mmRotated.Fullbleed/54 x 35mm: "<</PageSize[153 99]/ImagingBBox null>>setpagedevice"
+*PageRegion 35x75mmRotated.Fullbleed/75 x 35mm: "<</PageSize[213 99]/ImagingBBox null>>setpagedevice"
+*PageRegion 42x100mmRotated.Fullbleed/100 x 42mm: "<</PageSize[283 119]/ImagingBBox null>>setpagedevice"
+*PageRegion 100x150mm.Fullbleed/100 x 150mm: "<</PageSize[283 425]/ImagingBBox null>>setpagedevice"
+*PageRegion 68x110mmRotated.Fullbleed/110 x 68mm: "<</PageSize[312 193]/ImagingBBox null>>setpagedevice"
+*PageRegion 99x115mmRotated.Fullbleed/115 x 99mm: "<</PageSize[326 281]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageRegion
+
+*DefaultImageableArea: 100x150mm.Fullbleed
+*ImageableArea 20x40mmRotated.Fullbleed/40 x 20mm: "0 0 113.385833740234 56.692916870117"
+*ImageableArea 35x54mmRotated.Fullbleed/54 x 35mm: "0 0 153.070877075195 99.212600708008"
+*ImageableArea 35x75mmRotated.Fullbleed/75 x 35mm: "0 0 212.598434448242 99.212600708008"
+*ImageableArea 42x100mmRotated.Fullbleed/100 x 42mm: "0 0 283.464569091797 119.055122375488"
+*ImageableArea 100x150mm.Fullbleed/100 x 150mm: "0 0 283.464569091797 425.196868896484"
+*ImageableArea 68x110mmRotated.Fullbleed/110 x 68mm: "0 0 311.81103515625 192.755905151367"
+*ImageableArea 99x115mmRotated.Fullbleed/115 x 99mm: "0 0 325.984252929688 280.629943847656"
+
+*DefaultPaperDimension: 100x150mm.Fullbleed
+*PaperDimension 20x40mmRotated.Fullbleed/40 x 20mm: "113.385833740234 56.692916870117"
+*PaperDimension 35x54mmRotated.Fullbleed/54 x 35mm: "153.070877075195 99.212600708008"
+*PaperDimension 35x75mmRotated.Fullbleed/75 x 35mm: "212.598434448242 99.212600708008"
+*PaperDimension 42x100mmRotated.Fullbleed/100 x 42mm: "283.464569091797 119.055122375488"
+*PaperDimension 100x150mm.Fullbleed/100 x 150mm: "283.464569091797 425.196868896484"
+*PaperDimension 68x110mmRotated.Fullbleed/110 x 68mm: "311.81103515625 192.755905151367"
+*PaperDimension 99x115mmRotated.Fullbleed/115 x 99mm: "325.984252929688 280.629943847656"
+
+*HWMargins: 0 0 0 0
+*MaxMediaWidth: "328.818908691406"
+*MaxMediaHeight: "5669.29150390625"
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
+*ParamCustomPageSize Width: 1 points 34.015747070312 328.818908691406
+*ParamCustomPageSize Height: 2 points 14.173229217529 5669.29150390625
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 0
+
+*OpenUI *Resolution/Resolution: PickOne
+*OrderDependency: 10 AnySetup *Resolution
+*DefaultResolution: 300dpi
+*Resolution 300dpi/300dpi: "<</HWResolution[300 300]/cupsBitsPerColor 1/cupsRowCount 0/cupsRowFeed 0/cupsRowStep 0/cupsColorSpace 3>>setpagedevice"
+*CloseUI: *Resolution

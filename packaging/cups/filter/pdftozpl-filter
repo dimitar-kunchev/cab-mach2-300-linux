@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+
+from pdftozpl.cli import filter_main
+
+raise SystemExit(filter_main())

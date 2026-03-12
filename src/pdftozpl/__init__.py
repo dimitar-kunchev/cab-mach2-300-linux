@@ -1,0 +1,3 @@
+from .core import DEFAULT_DPI, DEFAULT_THRESHOLD
+
+__all__ = ["DEFAULT_DPI", "DEFAULT_THRESHOLD"]
